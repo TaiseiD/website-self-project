@@ -48,12 +48,12 @@ Beyond the reach of even space and time.
   if (showPoem) {
     return (
       <MainLayout>
-        <Button onClick={() => setShowPoem(false)} variant="secondary">
-          RETURN_TO_MAIN
-        </Button>
         <BodyLayout title="EPISTLE XII : LIFE LONG PROMISE" verseNumber={1}>
           <pre className="poem-text">{lovePoem}</pre>
         </BodyLayout>
+        <Button onClick={() => setShowPoem(false)} variant="secondary">
+          RETURN_TO_MAIN
+        </Button>
       </MainLayout>
     )
   }
