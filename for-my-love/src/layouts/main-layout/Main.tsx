@@ -12,12 +12,12 @@ export default function MainLayout(
   return (
     <div className="main-layout">
       <header className="main-header">
-        <div className="header-decoration">╔══════════════════════════════════╗</div>
+        <div className="header-decoration">╔════════════════════════════════╗</div>
         <GlitchText text="FOR MY GABRIELEE" className="main-title" />
         <div className="header-subtitle">
             <Text text="YOU FOUND THE MISSNG EPISTLE" speed={30} />
         </div>
-        <div className="header-decoration">╚══════════════════════════════════╝</div>
+        <div className="header-decoration">╚════════════════════════════════╝</div>
       </header>
       
       <main className="main-content">
