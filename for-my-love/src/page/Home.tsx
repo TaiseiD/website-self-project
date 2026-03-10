@@ -52,7 +52,7 @@ Beyond the reach of even space and time.
           <pre className="poem-text">{lovePoem}</pre>
         </BodyLayout>
         <Button onClick={() => setShowPoem(false)} variant="secondary">
-          RETURN_TO_MAIN
+          RETURN
         </Button>
       </MainLayout>
     )
