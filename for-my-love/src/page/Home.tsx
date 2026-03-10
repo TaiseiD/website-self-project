@@ -36,7 +36,7 @@ Beyond the reach of even space and time.
       <div className="boot-screen">
         <div className="boot-text">
           <Text 
-            text="LOADING LOVE_MODULES... OK\nMOUNTING HEART_DRIVE... OK\nINITIALIZING FEELINGS... OK\n\nPRESS ANY KEY TO CONTINUE_"
+            text="LOADING.. PLEASE WAIT_"
             speed={20}
             onComplete={() => setTimeout(() => setBootComplete(true), 500)}
           />
